@@ -16,7 +16,9 @@ TARGET_SCREEN_DENSITY := 560
 BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 	cs35l41_dlkm.ko \
 	goodix_fod.ko \
-	fts_touch_spi.ko
+	fts_touch_spi.ko \
+	qcom_pm8008-regulator.ko \
+	wl2866d.ko
 
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += \
 	fts_touch_spi.ko
