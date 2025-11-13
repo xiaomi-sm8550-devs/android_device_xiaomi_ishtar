@@ -17,6 +17,7 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 	cs35l41_dlkm.ko \
 	goodix_fod.ko \
 	fts_touch_spi.ko \
+	mi_thermal_interface.ko \
 	qcom_pm8008-regulator.ko \
 	wl2866d.ko
 
@@ -28,6 +29,7 @@ BOOT_KERNEL_MODULES += \
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
 # Sepolicy

@@ -22,12 +22,13 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureOverlayIshtar \
     FrameworkResOverlayIshtar \
     SettingsOverlayIshtar \
     SettingsProviderResIshtar \
     SystemUIOverlayIshtar \
     WifiResIshtar
+
+#ApertureOverlayIshtar 
 
 # PowerShare
 $(call soong_config_set,lineage_powershare,powershare_path,/sys/class/qcom-battery/reverse_chg_mode)
