@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are taken from miui_ISHTAR_2.0.206.0.VMACNXM
+## are taken from miui_ISHTAR_2.0.207.0.VMAMIXM
 
 # ACDBs
 odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:vendor/etc/acdbdata/kalama_mtp/Forte_acdb_cal.acdb
@@ -917,7 +917,7 @@ odm/lib64/camera/components/com.mi.node.mimovie.so
 odm/lib64/camera/components/com.mi.node.realtimebokeh.so
 odm/lib64/camera/components/com.mi.node.rearvideo.so
 odm/lib64/camera/components/com.mi.node.skinbeautifier.so
-odm/lib64/camera/components/com.mi.node.tsskinbeautifier.so|0b1f318ba5d63765b81e0486800026d23b691065
+odm/lib64/camera/components/com.mi.node.tsskinbeautifier.so|c681fb5a766f0c72e49a1f89a010ad7b1fde2d85
 odm/lib64/camera/components/com.mi.node.videobokeh.so
 odm/lib64/camera/components/com.mi.node.videofilter.so
 odm/lib64/camera/components/com.mi.node.videonight.so
@@ -1108,7 +1108,7 @@ odm/lib64/com.xiaomi.immunesystem.so
 odm/lib64/libAF.so
 odm/lib64/libHISCppAlgos.so
 odm/lib64/libMiMotion.so
-odm/lib64/libTrueSight.so|806b0d7e5fc467fedb2732985fe0671c9b6f0b7e
+odm/lib64/libTrueSight.so|6c0247bf345973df8960f9f96da62cc9f49e9f23|806b0d7e5fc467fedb2732985fe0671c9b6f0b7e
 odm/lib64/libXMFaceFocus.so
 odm/lib64/libaidenoiser.so
 odm/lib64/libaidenoiserv2.so
