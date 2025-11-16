@@ -20,6 +20,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st
+
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworkResOverlayIshtar \
@@ -48,3 +52,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/ishtar/ishtar-vendor.mk)
+
+# Inherit from the miuicamera
+$(call inherit-product, vendor/xiaomi/camera/miuicamera.mk)
